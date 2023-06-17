@@ -1,19 +1,15 @@
-<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_1_710)">
-<rect x="30" y="10" width="100" height="100" rx="5" fill="#3C4BA6"/>
-</g>
-<path d="M110.035 88.6626L99.4304 58.0922C99.3349 57.7101 98.9528 57.519 98.5706 57.4235C98.1885 57.4235 97.8064 57.6145 97.6153 57.9967L84.2408 87.134L64.7522 61.2448C64.5611 60.9582 64.2745 60.8626 63.8924 60.8626C63.6058 60.8626 63.3192 61.0537 63.1281 61.3403L49.0848 88.567C48.7983 89.2358 49.2759 90 49.9446 90C63.6058 90 97.5198 90 109.175 90C109.843 90 110.321 89.3313 110.035 88.6626Z" fill="#FDFDFE"/>
-<path d="M89.2088 71.7533L80.4198 54.5574C80.2288 54.1753 79.8466 53.9843 79.4645 53.9843C79.0824 53.9843 78.7958 54.2709 78.6047 54.653L73.2549 69.4605L83.7634 83.4082L89.2088 71.7533Z" fill="#FDFDFE"/>
-<path d="M79.3688 52.0736H79.4643C79.8464 52.0736 80.2285 52.1692 80.5151 52.2647V44.7176C83.4766 46.2462 86.2471 45.0998 89.2086 43.7623C92.3612 42.3293 94.845 41.2785 97.4244 43.5712C97.711 43.8578 98.0931 43.8578 98.4752 43.7623C98.8574 43.5712 99.0484 43.2847 99.0484 42.9025V31.5342C99.0484 31.2476 98.9529 31.0565 98.7618 30.8654C95.5137 27.9039 92.3612 28.9548 88.4443 30.6744C85.2918 32.1074 82.8079 33.1582 80.2285 30.8654C80.133 30.8654 78.6045 29.9101 78.6045 31.5342C78.6045 43.5712 78.6045 49.4943 78.6045 52.2647C78.8911 52.1692 79.0822 52.1692 79.3688 52.0736Z" fill="#FDFDFE"/>
-<defs>
-<filter id="filter0_d_1_710" x="0" y="0" width="160" height="160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="20"/>
-<feGaussianBlur stdDeviation="15"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.76875 0 0 0 0 0.781132 0 0 0 0 0.85625 0 0 0 0.4 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_710"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_710" result="shape"/>
-</filter>
-</defs>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+	<title>New Project</title>
+	<defs>
+		<image  width="100" height="100" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAUSURBVHicY2AYBaNgFIyCUUBPAAAFeAABCP1FgwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #3c4ba6 } 
+		.s1 { fill: #fdfdfe } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<path id="Layer" class="s0" d="m0 5c0-2.8 2.2-5 5-5h90c2.8 0 5 2.2 5 5v90c0 2.8-2.2 5-5 5h-90c-2.8 0-5-2.2-5-5z"/>
+	<path id="Layer" class="s1" d="m80 78.7l-10.6-30.6c-0.1-0.4-0.4-0.6-0.8-0.7-0.4 0-0.8 0.2-1 0.6l-13.4 29.1-19.4-25.9c-0.2-0.2-0.5-0.3-0.9-0.3-0.3 0-0.6 0.2-0.8 0.4l-14 27.3c-0.3 0.6 0.2 1.4 0.8 1.4 13.7 0 47.6 0 59.3 0 0.6 0 1.1-0.7 0.8-1.3z"/>
+	<path id="Layer" class="s1" d="m59.2 61.8l-8.8-17.2c-0.2-0.4-0.6-0.6-0.9-0.6-0.4 0-0.7 0.3-0.9 0.7l-5.3 14.8 10.5 13.9z"/>
+	<path id="Layer" class="s1" d="m49.4 42.1h0.1c0.3 0 0.7 0.1 1 0.2v-7.6c3 1.5 5.7 0.4 8.7-0.9 3.2-1.5 5.6-2.5 8.2-0.2 0.3 0.3 0.7 0.3 1.1 0.2q0.5-0.3 0.5-0.9v-11.4c0-0.3 0-0.4-0.2-0.6-3.3-3-6.4-1.9-10.4-0.2-3.1 1.4-5.6 2.5-8.2 0.2-0.1 0-1.6-1-1.6 0.6 0 12.1 0 18 0 20.8 0.3-0.1 0.5-0.1 0.8-0.2z"/>
 </svg>
