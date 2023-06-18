@@ -4,6 +4,7 @@ import Services from "./Services";
 import AboutBanner from "./AboutBanner";
 import StatisticsBanner from "./StatisticsBanner";
 import Message from "./Message";
+import Support from "./Support";
 
 const Home = () => {
   return (
@@ -11,8 +12,9 @@ const Home = () => {
       <HeroTop></HeroTop>
       <Services></Services>
       <AboutBanner></AboutBanner>
-      <Message></Message>
       <StatisticsBanner></StatisticsBanner>
+      <Message></Message>     
+      <Support></Support>
     </div>
   );
 };
