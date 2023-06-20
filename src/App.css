@@ -1,3 +1,6 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
 .container-inner {
   width: 100%;
   max-width: 1146px;
@@ -5,8 +8,11 @@
   margin-right: auto;
   padding: 0;
 }
-@media only screen and (max-width:570px) {
-    .container-inner{
-        padding: 0 20px;
-    }
+
+@media only screen and (max-width: 570px) {
+  .container-inner {
+    padding: 0 20px;
+  }
 }
+
+/* animation  */

@@ -3,17 +3,45 @@ import image from "../../assets/images/person.png";
 import shapeSmall from "../../assets/icons/shape_small.svg";
 import shapeBig from "../../assets/icons/shape.svg";
 import InputEmail from "../../components/InputEmail";
+import {
+  AttentionSeeker,
+  Bounce,
+  Fade,
+  Hinge,
+  JackInTheBox,
+  Roll,
+  Slide,
+} from "react-awesome-reveal";
 const HeroTop = () => {
   return (
-    <section className="my-[50px] container-inner">
+    <section className="mb-[50px] lg:mt-[50px] md:mt-[50px] mt-0 container-inner">
       <div className="flex lg:flex-row flex-col justify-between gap-[50px]">
         <div className="w-full">
-          <h4 className="lg:text-[72px] md:text-[60px] text-5xl leading-[120%] font-bold mb-[20px]">
-            Your strategy is only as good as you execute it
-          </h4>
+          <div className="mb-[20px]">
+            <Slide
+              cascade
+              direction="left"
+              duration="1000"
+              damping={0.1}
+              triggerOnce
+            >
+              <p className="lg:text-[72px] md:text-[60px] text-5xl leading-[120%] font-bold">
+                Your strategy is
+              </p>
+              <p className="lg:text-[72px] md:text-[60px] text-5xl leading-[120%] font-bold">
+                only as good as
+              </p>
+              <p className="lg:text-[72px] md:text-[60px] text-5xl leading-[120%] font-bold">
+                you execute it
+              </p>
+            </Slide>
+          </div>
           <p className="mb-[30px] text-[20px] leading-[37px]">
             Our simple but powerful OKR+ platform turns great strategies into
-            amazing results. And it's free.
+            amazing results. And it's{" "}
+            <AttentionSeeker className="inline-block z-50" effect="jello" delay="100">
+              <span className="font-semibold">free</span>
+            </AttentionSeeker>
           </p>
           <InputEmail></InputEmail>
         </div>

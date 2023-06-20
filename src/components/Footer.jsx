@@ -1,3 +1,11 @@
+import {
+  faFacebookF,
+  faInstagram,
+  faLinkedin,
+  faLinkedinIn,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -11,7 +19,42 @@ const Footer = () => {
             Our simple but powerful OKR+ platform turns great strategies into
             amazing results. And it's free.
           </p>
-          <div></div>
+          <div className="mt-[30px]">
+            <ul className="flex">
+              <li className="mr-3">
+                <a
+                  href="https://www.google.com"
+                  className="w-[35px] h-[35px] bg-blue-700 rounded-full flex items-center justify-center"
+                >
+                  <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
+                </a>
+              </li>
+              <li className="mr-3">
+                <a
+                  href="https://www.google.com"
+                  className="w-[35px] h-[35px] border border-white rounded-full flex items-center justify-center"
+                >
+                  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                </a>
+              </li>
+              <li className="mr-3">
+                <a
+                  href="https://www.google.com"
+                  className="w-[35px] h-[35px] border border-white rounded-full flex items-center justify-center"
+                >
+                  <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                </a>
+              </li>
+              <li className="mr-3">
+                <a
+                  href="https://www.google.com"
+                  className="w-[35px] h-[35px] border border-white rounded-full flex items-center justify-center"
+                >
+                  <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className=" col-span-2 grid grid-cols-3">
           <div className="flex lg:justify-end justify-center">

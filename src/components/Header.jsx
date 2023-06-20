@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  const [expanded, setExpanded] = useState(false);
   return (
     <nav className="flex items-center justify-between flex-wrap  py-6 lg:px-[100px] md:px-[100px] px-[20px]">
       <div className="flex items-center flex-shrink-0 text-slate-600 mr-6">
@@ -9,7 +10,10 @@ const Header = () => {
       </div>
       {/* mobile view  */}
       <div className="block lg:hidden">
-        <button className="flex items-center px-3 py-2 border rounded text-gray-900 border-gray-900 hover:text-blue-400 hover:border-blue-400">
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="flex items-center px-3 py-2 border rounded text-gray-900 border-gray-900 hover:text-blue-400 hover:border-blue-400"
+        >
           <svg
             className="fill-current h-3 w-3"
             viewBox="0 0 20 20"
@@ -21,7 +25,13 @@ const Header = () => {
         </button>
       </div>
       {/* desktop view  */}
-      <div className="w-full block flex-grow lg:flex justify-end lg:w-auto">
+      <div
+        className={`w-full block flex-grow lg:flex justify-end lg:w-auto overflow-hidden lg:h-full ${
+          expanded
+            ? "h-[160px] transition-all duration-300 ease-in-out"
+            : "h-0 transition-all duration-300 ease-in-out"
+        }`}
+      >
         <div className="text-[16px]">
           <Link
             to="/solutions"

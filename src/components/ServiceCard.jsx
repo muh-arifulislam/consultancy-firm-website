@@ -1,18 +1,15 @@
 import React from "react";
-import logo from "../assets/icons/goal.svg";
-const ServiceCard = () => {
+import TextLink from "./TextLink";
+const ServiceCard = ({ img, title, children }) => {
   return (
     <div className="bg-white px-[20px] py-[40px]">
       <div className="mb-[50px]">
-        <img className="shadow-xl" src={logo} alt="" />
+        <img className="shadow-xl" src={img} alt="" />
       </div>
       <div>
-        <h4 className="text-xl font-bold mb-2">Roadmap to success</h4>
-        <p className="mb-2">
-          Design your future. Share your strategy with the people responsible
-          for delivering it. Create clarity and buy-in.
-        </p>
-        <a href="#" className="text-[#3C4BA6] font-semibold">Learn More</a>
+        <h4 className="text-xl font-bold mb-2">{title}</h4>
+        <p className="mb-2">{children}</p>
+        <TextLink></TextLink>
       </div>
     </div>
   );
